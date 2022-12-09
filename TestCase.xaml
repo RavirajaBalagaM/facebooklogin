@@ -1,0 +1,194 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="634,552.6666666666666" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="33">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="492,488" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="430,65.33333333333333" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Blank Test Case" />
+    <Sequence sap2010:Annotation.AnnotationText="Automated the web Applications like entering login credentials and logging to the applications" DisplayName="Web Automation" sap:VirtualizedContainerService.HintSize="430,260.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Login To Facebook And Checks the username" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Facebook – log in or sign up" sap:VirtualizedContainerService.HintSize="368,93.33333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c1902e02-e9f8-4e29-b6ff-7dadb0dee8eb" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="544.6666666666666,1840.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="strPassword" />
+                <Variable x:TypeArguments="x:Boolean" Name="strCount" />
+                <Variable x:TypeArguments="x:Boolean" Name="strUserName" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Enter the EmailAddress" EmptyField="True" sap:VirtualizedContainerService.HintSize="482.6666666666667,144" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="b.r.r.v.r.murthy@gmail.com">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7fd272c8-feed-4fc7-9f3b-13f49bd580e7" InformativeScreenshot="07cceee202bc96e11a42d33448953e4b" Selector="&lt;webctrl id='email' tag='INPUT' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="482.6666666666667,32" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAresTIa/KzU2uPDwXMfNemwAAAAACAAAAAAAQZgAAAAEAACAAAADcVVOmGDOgYEdIzDtjWW3R0gK1nU61fODADX8MddqTEQAAAAAOgAAAAAIAACAAAABW9/0UvtGHXRsqXmOyvGGWaodSFST2YbkbwMWRDIbBDxAAAACH1vgJERrHxKC7aMQJ7mtbQAAAAJdoSG4Rx3xuAyKWQ+1xJGvGSRYXczQnG1Gk1tDy9rUTORkul82jbQyhp1wb1zLDrAM3kpfeJT7X+Q74GQ1yWJo=" Result="[strPassword]" />
+              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Enters The Password" EmptyField="True" sap:VirtualizedContainerService.HintSize="482.6666666666667,144" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[strPassword]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3bc4d56-c6f2-49d5-9ade-033b0b38a9c7" InformativeScreenshot="f134de01393ceac36493e579a3e51d88" Selector="&lt;webctrl id='pass' tag='INPUT' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <uix:NClick ClickType="Single" DisplayName="Click 'Log in'" sap:VirtualizedContainerService.HintSize="482.6666666666667,168" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c1902e02-e9f8-4e29-b6ff-7dadb0dee8eb" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.facebook.com/" DesignTimeRectangle="1118, 585, 546, 72" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy' aaname='Log in' check:innerText='Log in' /&gt;" Guid="d11c1b00-7728-40e3-8597-042824254b31" ImageBase64="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" InformativeScreenshot="2cf49b78c040b7c66fca9fd75d1c597c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Facebook – log in or sign up' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <ui:UiElementExists DisplayName="Checking The User Name" Exists="[strUserName]" sap:VirtualizedContainerService.HintSize="482.6666666666667,116" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                <ui:UiElementExists.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="38b3eea7-1092-42cc-8ccb-a0afd2d2ec49" InformativeScreenshot="d7ca6af2e2830e50ef3c57477b851357" Selector="&lt;webctrl aaname='Ravi Raja Balaga' tag='SPAN' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:UiElementExists.Target>
+              </ui:UiElementExists>
+              <If sap2010:Annotation.AnnotationText="It checks Username whether displayed or not" Condition="[strUserName.ToString=&quot;True&quot;]" sap:VirtualizedContainerService.HintSize="482.6666666666667,912" sap2010:WorkflowViewState.IdRef="If_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Displays Successfully login" sap:VirtualizedContainerService.HintSize="400,356" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,98.66666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Successfully Login" />
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="338,95.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Successfully Login&quot;]" />
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Displays Login Fail" sap:VirtualizedContainerService.HintSize="400,356" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,98.66666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Login Failed" />
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="338,95.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Login Failed&quot;]" />
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQlSURBVFhHrZXdU1NXFMUPmA8gEDEQCD75wNgHxv4beepf0UpbKlQZpWNbOxhrsba1Hzbphzpai1rU1nY67UsfMtNpJ28dpzM+0CdJgGBQQrw3GgK5u3ufe07uuckhhrRr5jdrT/Y+ayE4wJrVyD3wDf0I0b13ID50B5Lo80M/gEHw2f4sTjd0K579d+37BSJ7v4dE5DYUIrctcHGr4jgyWHULbysJeitidq7hX8GPYbHIXMUcnNsCzneK8xnLpGuIzFkmZVCWiG1O+25CBINTAzcwHCHXcn3TcR1iR1mUKeIba+A6PB+e3cqEZzEAkW7P5aqrs9wPXFMc4W+FU+bgLBwQNXqF8asMf7uZ6f9mA4jw1XLVdag3uvu6PWZTh6hzi35O4SvlVP8VPJZcLjnOkTP5Bgxi6Mxfm/DPugWlLQvKFQsKGxZkDAvurlbEW0TJow7t/wk8jPVdKoGLi08dV2f0566V4M9sBRrJzhHvFKhL1NoKX4ZI/8WS2XcBjxsQ+trx39JbomZ71b9/ImeTOkU9Y31fPU2EvnwCexDpNkXFi2JXhBd+KomKxpL35OrM87CTl4/cBF8oUSzsSeCHTXJrflNUNJburYQ6qZuFvjCjvedN4HyuOJ8Nx5X5bq7+23/1Xhn2XyqKW7rTUJMfOm9G2e5PjTgCzdAr3CxbotbR/gsYqtyps3yvIc52f/w4iUAzBM/ZrlPwXIHvHa9HzSB6PzGSLPjR4/ngh/gI6VFch9zpJDN2BHaz4AfrRs/ZddDyvuLKrJPrdrv3NVA3C57JG91n8sCZUVyhFS2sV6BHZJGrs8ztmckbrPu9/Hzg9Bro6D6d596K/lgo1+UF3lUcoW4WOLWWDJx6BERXzHGVVnTj75IrU89aknVNP4wj0IhWdPb3Yl1Op+JijrPAyUfRzhOrwHlHcYVWNPGzId5jWU2ehLrZyDT4uk48LHS+vQodb+VAug6508neyzv3TG7PTgd1Ujf/e9D55mqi4/gD6DiOh1XPgV/M5Co60Tv73rlTP6vdUycvJwWmcxHf1Irpn1oBdCBXZ3J11sn/xgP7Rrh6r8kzqVPU2+qYysZ8R3F5NIuQ67B3Onn5Llt1zjHxhhzhO5qxS9Q6Gv4M/N7JbMo7uQzeI9swiQXoOvnETrp9r3h1zqaoS9S6FTiGP4rDyxnP60vQCJ3oc+/h5aqrs3xH2dQh6vTyHVk54JlYynjGl2DXoUWQrs468Ztx+457LROLGcoWNY0VGMtFPGOLqV1jGXDxGgah66TuuSt4Di2mnvkvr9XwOPjxi4i1v5ox21/JgE2au05tfJeuOgffUgZlididi74b7aPpRNvoQqFtFAsOLohKt3CP4J785XSB3tBbEfM/CH9reQ6mo+zF+3HR6RJ76X6Sdoxu5G+4Z4qxfwFy1lO9ksIzlAAAAABJRU5ErkJggg==" InformativeScreenshot="bafaa1327297bb9ddea0f95e3ca26e23.jpg" Selector="&lt;html app='chrome.exe' title='Facebook – log in or sign up' /&gt;" Url="https://www.facebook.com/" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
